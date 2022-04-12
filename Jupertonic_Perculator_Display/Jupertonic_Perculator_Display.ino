@@ -3,10 +3,10 @@
 // OLED shows what pattern you're playing with pattern number and pattern name as selected by the pattern potentiometer.
 // Pins for OLED are dependent on type of Arduino used. This is set up for Nano. If you're using Pro Micro SDA = D2, SCL = D3. Check your SDA & SCL and adjust accordingly.
 // This is designed for Mark Dammer's Wee O3 version of Jan Ostman's O2 Mini Pops project revived by Bloghoskins. Sounds emulate Korg Mini Pops drum machine.
-// See my Perculator code for extensive changes to the pattern beats corresponding to the pattern names here and minor additions for LEDs and 
+// See my Perculator code for extensive changes to the pattern beats corresponding to the pattern names here and minor additions for LEDs.
 // LEDs are run off this board to remove potential sound interference on main Perculator board since we have this board available to handle the OLED screen.
 // You will need to install the ss_oled library to run the display.
-// Change the pattern names as desired in the code. These are promarily 4 on the floor 80s dance beets for Perculator. Boot n' pants is beat box slang. 
+// Change the pattern names as desired in the code. These are promarily 4 on the floor 80s dance beats for Perculator. Boot n' pants is beat box slang. 
 
 #include <ss_oled.h>
 #include <avr/interrupt.h>
