@@ -29,8 +29,8 @@ Wire board 2 according to the Fritzing schematic Perculator_Display__schem.pdf a
   -My LEDs are very bright in the dark but good in a light room. Use larger resistors to dim the LEDs.
   -You could put diodes on the connections between board 1 and 2 if desired.
 
-OLED display and LED interface code by Jupertronic aka Janis Wilson Hughes aka J Dub aka vitalWho aka Evolution Stoneware (youtube)
-OLED shows what pattern you're playing with pattern number and pattern name so you can tell what the heck you're doing as selected by the pattern potentiometer.
+OLED display and LED interface code by Jupertronic aka Janis Wilson Hughes aka J Dub aka vitalWho aka Evolution Stoneware (youtube).
+OLED shows what pattern you're playing with pattern number and pattern name so you can tell what the heck you've selected on the pattern potentiometer.
 Pins for OLED are dependent on type of Arduino used. This is set up for Nano. If you're using Pro Micro SDA = D2, SCL = D3. Check your SDA & SCL and adjust accordingly.
 
 Change the pattern names as desired in the display code. These Perculator beats are promarily 4 on the floor 80s dance beat sequences. 'Boots n' pants' is slang for beat box sounds. ;) 
