@@ -1,15 +1,15 @@
-// Perculator Drum Machine 2022
-// By Janis Wilson Hughes aka Jupertronic aka vitalWho aka J Dub aka Evolution Stoneware (youtube)
+// Perculator Mini Pops Drum Machine 2022
+// Janis Wilson Hughes aka Jupertronic aka vitalWho aka J Dub aka Evolution Stoneware (youtube)
 // Original code: O2 Minipops rhythm box (c) DSP Synthesizers 2016
 // Free for non commercial use - http://janostman.wordpress.com - (website no longer working)
 // See revival of this project by Bloghoskins.
-// This iteration based on The Wee O3 by Mark Dammer 2020 - 'An ionized O2 Minipops' with awesome enhanced functionality.
+// This iteration based on The Wee O3 by Mark Dammer 2020 - 'An ionized O2 Minipops' with awesome enhanced functionality. https://github.com/mark-orion/The-Wee-O3
 // Thank you Jan, Bloghoskins, & Mark! 
 // Changed LED flash to last beat of pattern
 // Set up for 4 On the Floor beats and Rock Beats coded in Perculator_data.h
 // Revised to use with a second Arduino board to run an OLED display showing the pattern name and number as well as operating LEDs.
-// The pattern pot is wired with second output to display Arduino A0.
-// A0, A2/D16, and D12 from this board go to display Arduino D3, D2, and D4 respectively.
+// The pattern pot is wired with a second output going to the display Arduino's A0.
+// A0, A2/D16, and D12 from this board go to display Arduino D3, D2, and D4 respectively with 10K resistors in series.
 
 
 #include <avr/interrupt.h>
