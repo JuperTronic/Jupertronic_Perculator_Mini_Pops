@@ -26,7 +26,7 @@ Wire board 2 according to the Fritzing schematic Perculator_Display__schem.pdf a
   -I sugest green LED for first beat, blue LED for each beat, and red LED for last beat. 
   -I sugest a smaller resistor on the green LED because the red and blue are brighter. This evens it out with my parts. Value determined by trial and error. 
   -My LEDs are very bright in the dark but good in a light room. Use larger resistors to dim the LEDs.
-  -You could put diodes on the connections between board 1 and 2 if desired
+  -You could put diodes on the connections between board 1 and 2 if desired.
 
 OLED display and LED interface code by Jupertronic aka Janis Wilson Hughes aka J Dub aka vitalWho aka Evolution Stoneware (youtube)
 OLED shows what pattern you're playing with pattern number and pattern name as selected by the pattern potentiometer.
@@ -34,4 +34,9 @@ Pins for OLED are dependent on type of Arduino used. This is set up for Nano. If
 
 Change the pattern names as desired in the display code. These Perculator beats are promarily 4 on the floor 80s dance beat sequences. 'Boots n' pants' is slang for beat box sounds. 
 
-I'm neither a coding pro nor a Fritzing wiz, but I hope you find it helpful!
+I'm neither a coding expert nor a Fritzing wiz, but I hope this helps!
+
+Big thanks to Bloghoskins, Jan Ostman and Mark Dammer.
+
+Wishing wellness and wellbeing to all.
+-Janis
