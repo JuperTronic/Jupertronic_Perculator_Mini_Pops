@@ -18,25 +18,26 @@ Wire board 1 according to the schematics detailed by Mark Dammer for The Wee O3 
 Also see Bloghoskins' detailed drawings for the original O2 Mini Pops. http://bloghoskins.blogspot.com/2016/11/korg-mini-pops-diy-drum-machine.html
 
 Wire board 2 according to the Fritzing schematic Perculator_Display__schem.pdf and drawing Perculator_Display_diagram.jpg.
+  -Connect grounds from board 1 and board 2 to a common ground point.
   -Run 2 wires from the middle signal lug of the pattern pot so that it can be connected as an input to both Arduino boards. 
   -Be sure the ground lug of pattern pot is connected to the common ground. 
   -Power the pattern pot only from board 1. 
   -Connect the other pins as shown in the schematic for inputs to board 2 from board 1 for timing pulses and the LEDs.
-  -LEDs can be run off board 1 as in the Wee O3. They are split off to the extra capacity of board 2 here to remove possible audio coloration on board 1.
-  -I sugest green LED for first beat, blue LED for each beat, and red LED for last beat. 
-  -I sugest a smaller resistor on the green LED because the red and blue are brighter. This evens it out with my parts. Value determined by trial and error. 
+  -LEDs can be run off board 1 as in The Wee O3. They are split off to the extra capacity of board 2 here to remove possible audio coloration on board 1.
+  -Suggest green LED for first beat, blue LED for each beat, and red LED for last beat. 
+  -Suggest a smaller resistor on the green LED because the red and blue are brighter. This evens it out with my parts. Value determined by trial and error. 
   -My LEDs are very bright in the dark but good in a light room. Use larger resistors to dim the LEDs.
   -You could put diodes on the connections between board 1 and 2 if desired.
 
 OLED display and LED interface code by Jupertronic aka Janis Wilson Hughes aka J Dub aka vitalWho aka Evolution Stoneware (youtube)
-OLED shows what pattern you're playing with pattern number and pattern name as selected by the pattern potentiometer.
+OLED shows what pattern you're playing with pattern number and pattern name so you can tell what the heck you're doing as selected by the pattern potentiometer.
 Pins for OLED are dependent on type of Arduino used. This is set up for Nano. If you're using Pro Micro SDA = D2, SCL = D3. Check your SDA & SCL and adjust accordingly.
 
-Change the pattern names as desired in the display code. These Perculator beats are promarily 4 on the floor 80s dance beat sequences. 'Boots n' pants' is slang for beat box sounds. 
+Change the pattern names as desired in the display code. These Perculator beats are promarily 4 on the floor 80s dance beat sequences. 'Boots n' pants' is slang for beat box sounds. ;) 
 
 I'm neither a coding expert nor a Fritzing wiz, but I hope this helps!
 
-Big thanks to Bloghoskins, Jan Ostman and Mark Dammer.
+Big thanks to Bloghoskins, Jan Ostman, and Mark Dammer.
 
 Wishing wellness and wellbeing to all.
 -Janis
