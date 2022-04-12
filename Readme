@@ -14,11 +14,10 @@ Install Jupertronic_Perculator_O3Minipops.ino on board 1. Include Perculator_dat
 
 Install Jupertronic_Perculator_Display.ino on board 2. You will need to install the ss_oled.h library for the OLED.
 
-Wire board 1 according to the schematics detailed by Mark Dammer for The Wee O3 https://github.com/mark-orion/The-Wee-O3.
+Wire board 1 according to the schematics detailed by Mark Dammer for The Wee O3 https://github.com/mark-orion/The-Wee-O3 with changes shown in Perculator_Display__schem.pdf and Perculator_Display_diagram.jpg.
 Also see Bloghoskins' detailed drawings for the original O2 Mini Pops. http://bloghoskins.blogspot.com/2016/11/korg-mini-pops-diy-drum-machine.html
 
-Wire board 2 according to the Fritzing schematic pdf and drawing Perculator_Display_Schematic.jpg
-  -Connect ground of board 1 and board 2 to a common location
+Wire board 2 according to the Fritzing schematic Perculator_Display__schem.pdf and drawing Perculator_Display_diagram.jpg.
   -Run 2 wires from the middle signal lug of the pattern pot so that it can be connected as an input to both Arduino boards. 
   -Be sure the ground lug of pattern pot is connected to the common ground. 
   -Power the pattern pot only from board 1. 
