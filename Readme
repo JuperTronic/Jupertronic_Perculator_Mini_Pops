@@ -1,4 +1,6 @@
-** This project runs on 2 Arduinos connected through a common ground, the pattern pot, and a few pins **
+Perculator is essentially an OLED display addition to the Arduino based MiniPops drum machine originally designed by Jan Ostman. 
+
+*This project runs on 2 Arduinos connected through a common ground, the pattern pot, and a few pins*
 
 Board 1 runs a sound generating drum machine with sounds emulating the Korg Mini Pops. This code, Perculator, is a modified version of The Wee O3 (Mark Dammer) expansion of O2 Mini Pops (Jan Ostman) code which has been popularized by Bloghoskins.
   -Minor changes made for sending pulsed outputs for Perculator's 3 LED design.
@@ -17,7 +19,7 @@ Install Jupertronic_Perculator_Display.ino on board 2. You will need to install 
 Wire board 1 according to the schematics detailed by Mark Dammer for The Wee O3 https://github.com/mark-orion/The-Wee-O3 with changes shown in Perculator_Display__schem.pdf and Perculator_Display_diagram.jpg.
 Also see Bloghoskins' detailed drawings for the original O2 Mini Pops. http://bloghoskins.blogspot.com/2016/11/korg-mini-pops-diy-drum-machine.html
 
-Wire board 2 according to the Fritzing schematic Perculator_Display__schem.pdf and drawing Perculator_Display_diagram.jpg.
+Wire board 2 according to the Fritzing schematic Perculator_Display_schem.pdf and drawing Perculator_Display_diagram.jpg.
   -Connect grounds from board 1 and board 2 to a common ground point.
   -Run 2 wires from the middle signal lug of the pattern pot so that it can be connected as an input to both Arduino boards. 
   -Be sure the ground lug of pattern pot is connected to the common ground. 
