@@ -1,6 +1,7 @@
 # Jupertronic_Perculator_Mini_Pops
 ## Video Demo
 Video Demo: https://www.youtube.com/watch?v=Q6Sxdc9tYrI
+![Display](https://github.com/JuperTronic/Jupertronic_Perculator_Mini_Pops/blob/main/Perculator%20OLED%20Screen3.jpg)
 
 ## About
 Perculator is essentially an OLED display addition to the Arduino based MiniPops drum machine originally designed by Jan Ostman. 
