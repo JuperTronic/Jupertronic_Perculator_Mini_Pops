@@ -6,7 +6,7 @@ Video Demo: https://www.youtube.com/watch?v=Q6Sxdc9tYrI
 Perculator is essentially an OLED display addition to the Arduino based MiniPops drum machine originally designed by Jan Ostman. 
 There are also _significant_ changes to the drum sequences to emulate 80s electro pop and dance beats.
 
-!/Perculator.gif
+![Perculator](https://github.com/JuperTronic/Jupertronic_Perculator_Mini_Pops/blob/main/Perculator.gif)
 
 *This project runs on 2 Arduinos connected through a common ground, the pattern pot, and a few pins*
 
