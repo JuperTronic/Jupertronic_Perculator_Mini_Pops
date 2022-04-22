@@ -9,6 +9,7 @@ Perculator is essentially an OLED display addition to the Arduino based MiniPops
 There are also _significant_ changes to the drum sequences to emulate 80s electro pop and dance beats.
 
 ![Perculator](https://github.com/JuperTronic/Jupertronic_Perculator_Mini_Pops/blob/main/Perculator.gif)
+Lots of fabrication info available on my blog here: https://noisymaker.blogspot.com/2022/04/perculator-arduino-mini-pops-drum.html
 
 *This project runs on 2 Arduinos connected through a common ground, the pattern pot, and a few pins*
 
