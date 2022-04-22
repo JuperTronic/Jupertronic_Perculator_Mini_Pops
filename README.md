@@ -54,6 +54,21 @@ OLED display and LED interface code by Jupertronic aka Janis Wilson Hughes aka J
 OLED shows what pattern you're playing with pattern number and pattern name so you can tell what the heck you've selected on the pattern potentiometer.
 Pins for OLED are dependent on type of Arduino used. This is set up for Nano. If you're using Pro Micro SDA = D2, SCL = D3. Check your SDA & SCL and adjust accordingly.
 
+## Parts Links
+My Actual Parts:
+OLED https://amzn.to/3MrvjiG
+Arduino Nanos https://amzn.to/36Gc3iu
+Latching Buttons https://amzn.to/3k3Vd08
+Wire https://amzn.to/3rN78ng
+Potentiometers with knobs https://amzn.to/3k3wOYp
+Project box https://amzn.to/3vBEt5E
+Solderable breadboard https://amzn.to/3rOkVK7
+Lots of solder https://amzn.to/3MskkG6
+A little solder https://amzn.to/3L42MzA
+3.5mm audio jacks https://amzn.to/3K1a0TK
+5.5mm power jack https://amzn.to/3Oun4o6
+Step bit drill set https://amzn.to/3rKd3sW
+
 ## Disclamer
 I'm neither a coding expert nor a Fritzing wiz, but I hope this helps!
 
